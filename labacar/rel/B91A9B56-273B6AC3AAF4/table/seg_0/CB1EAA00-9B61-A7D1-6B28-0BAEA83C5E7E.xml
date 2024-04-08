@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB1EAA00-9B61-A7D1-6B28-0BAEA83C5E7E" name="Rent">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>413B944F-A7E4-957B-A72A-98AD3AE83E9E</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="start_of_time" id="ACD3EC6D-6A2C-30F3-F7AF-F24D27EDAC62">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>5CB51A49-0317-6ECA-428B-461E6209AD66</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_of_time" id="58A63FAF-5111-97DE-68E7-7C2D69B464EE">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>4CB87DA1-2A40-36C4-C418-C00B187BA3A4</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="079D90AE-E807-7D8B-BEC0-F8FC7827A04E">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>E8DE5002-1FC0-60C7-F05B-A11D78611F49</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rent_ID" id="EAE24942-142C-EAEE-BD30-478A13D227D6">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3F9F684-D506-0DA5-DFBF-10148622CC60" name="Rent_PK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="EAE24942-142C-EAEE-BD30-478A13D227D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

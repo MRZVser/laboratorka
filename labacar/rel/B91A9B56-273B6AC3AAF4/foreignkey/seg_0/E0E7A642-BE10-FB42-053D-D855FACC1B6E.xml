@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0E7A642-BE10-FB42-053D-D855FACC1B6E" containerWithKeyObject="57A89DBA-3402-1E3E-0A5B-84EA5E17075F" localFKIndex="01C0A4F9-B4BA-EAA6-2789-09772EF312F5" name="Parking_permit_Region_FK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>8AED9905-B40B-8489-5F29-3B57527EE6CA</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<referredTableLongName>Region</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>422AC0BC-158C-EB6B-5D7F-5BC329DC5C21</referredTableID>
+<keyObject>0552ED06-8D87-6900-2F8D-9FC5EE962793</keyObject>
+<referredKeyID>0552ED06-8D87-6900-2F8D-9FC5EE962793</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Region_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

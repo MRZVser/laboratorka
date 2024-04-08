@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E90A0B45-B662-467A-4916-C19B0D51F7F5" name="Location">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>A144077D-165C-252E-CA2D-12B2EEDD2EA1</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="street" id="9E2D172E-76A2-3649-3A75-1B32746356DE">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>5E0DCD96-5B7D-B6D8-E6AA-D75B2BAD712C</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number_of_street" id="2444D151-58D6-66A7-E7E4-E437463352D5">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>65DCC0F0-DFB7-D718-19D8-510ED96DB511</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_ID" id="FA27203F-BF3E-8962-2EE4-9AAE93DB8ACC">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Region_Region_ID" id="9B33615D-8BFE-48E9-03AC-B679768E489D">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25CDC0C9-1721-6781-4E46-336D662C5511" referredColumn="1B8F3C27-DCD7-03D5-0A64-01E664FFC41A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10355A81-B329-724E-756F-3AD6651661F6" name="Location_PK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FA27203F-BF3E-8962-2EE4-9AAE93DB8ACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03A8D19E-2964-62DA-FE57-012424BEA6DC" name="Location_Region_FK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>F5243CA8-EF2E-A1DE-BCCC-B636AB18D3C1</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B33615D-8BFE-48E9-03AC-B679768E489D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

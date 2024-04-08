@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24F1B6F3-2492-FF7C-DAAC-0E7919BECDFB" name="Driver&apos;s_license">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>31322DFA-4F25-BC78-022A-E6EA5175B936</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="driver_violation_history" id="68AEC29A-E26A-DF09-70A6-40DF56B54878">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>CE19405A-277E-B109-DE95-3D368C740B96</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Driver&apos;s_license_ID" id="EB3AE406-C771-B88E-4D3B-C6830F8A7D61">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54357648-311B-DCFB-8D97-0C87EFE25106" name="Driver&apos;s_license_PK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="EB3AE406-C771-B88E-4D3B-C6830F8A7D61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

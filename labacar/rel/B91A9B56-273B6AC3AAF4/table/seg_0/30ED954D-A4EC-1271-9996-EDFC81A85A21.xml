@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30ED954D-A4EC-1271-9996-EDFC81A85A21" name="Model">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>A2A1E5CC-47EE-0E19-E26E-11838E0EAF05</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="manufacturer" id="E5FF581F-7EFF-34A0-E1B8-723BD86F84A0">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>5793BB81-4801-301C-0FE1-BA751B374395</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Engine_power" id="BEE29E8F-363D-A012-C936-87B0DEA846B4">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>E12F0783-77F9-5330-EC00-6575DFFBABBC</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model_ID" id="52EF9DC0-1322-FDA5-7A5C-13D464BC7D4E">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A65E1820-D079-2919-DABC-D06D55FC55B0" name="Model_PK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="52EF9DC0-1322-FDA5-7A5C-13D464BC7D4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

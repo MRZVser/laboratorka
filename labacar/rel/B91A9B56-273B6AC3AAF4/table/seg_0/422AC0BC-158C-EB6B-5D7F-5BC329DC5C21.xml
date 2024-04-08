@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="422AC0BC-158C-EB6B-5D7F-5BC329DC5C21" name="Region">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>E5EB6FBC-5E00-2A0B-6305-5A177704BFF2</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="A640FC26-C9ED-768B-41C4-8ED042EA5895">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>996FBDCD-8D70-7D26-4B44-162F5E46BF3A</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_ID" id="1B8F3C27-DCD7-03D5-0A64-01E664FFC41A">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Insurance_Insurance_ID" id="667F3A30-FE9D-05CF-5042-F0192CF088C4">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E1640DD-D1F8-24D3-95A4-3F32ECD921DA" referredColumn="0632A973-0AB5-22DE-6DB4-8ED7E10C89BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0552ED06-8D87-6900-2F8D-9FC5EE962793" name="Region_PK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1B8F3C27-DCD7-03D5-0A64-01E664FFC41A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFF5F909-F367-E8B8-2960-7640B63CBDD1" name="Region_Insurance_FK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>4B83B9DF-2680-DC31-2BBA-A65962FA8690</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="667F3A30-FE9D-05CF-5042-F0192CF088C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

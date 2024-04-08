@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D539404-18D9-211F-D164-10F4F1B9855E" name="Old_Driver&apos;s_license">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>4C588EBF-5FA5-0F2C-4C36-8A82BD75AAC8</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="driver_violation_history" id="DE9A1022-62B6-D4F9-63B5-E32A12523801">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>2E190468-2BCC-9A73-BC18-8FBA249FF34A</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Old_Driver&apos;s_license_ID" id="38372AE3-408F-12F0-13C6-CB4A9C9B56C8">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Driver&apos;s_license_Driver&apos;s_license_ID" id="CA305EF7-E855-362F-C130-ABF6EF268E6C">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A63F68F-1637-9863-2E69-E44AF18B4A0A" referredColumn="EB3AE406-C771-B88E-4D3B-C6830F8A7D61"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E135909-08E0-66E5-86E4-A66FFC392892" name="Old_Driver&apos;s_license_PK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="38372AE3-408F-12F0-13C6-CB4A9C9B56C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9DFA2F2-3C8A-6584-5065-98448F57CD15" name="Old_Driver&apos;s_license_Driver&apos;s_license_FK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>4778C180-7345-7AB9-4A1F-19EDAC8E14A3</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA305EF7-E855-362F-C130-ABF6EF268E6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

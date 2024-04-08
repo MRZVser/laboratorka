@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CA17EF6-6326-0693-A554-5B77D67159E6" name="Insurance">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>B214C71D-4867-2DBB-0D99-1D25DDFE1E44</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="start_of_insurance" id="88860A4D-C39B-51BB-6CA0-43A3B577E945">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>45ACC439-E308-5A9E-FA8E-5E8739BC237A</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_of_insurance" id="3A319CAE-3085-4CDB-1EE8-90A5C6B19D39">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<generatorID>5FC8B996-8AF8-28FE-C5E9-3BA90575F8C1</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Insurance_ID" id="0632A973-0AB5-22DE-6DB4-8ED7E10C89BD">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Car_Car_ID" id="9F2C9FE5-5000-D423-4B63-9432E24FCEB4">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A4BBEBC-CA3A-B517-1D59-B28DD45A4CEE" referredColumn="CCDBD2CB-2AC7-A17C-8F24-72DA5B794733"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3655A1D8-17E2-135B-022C-E01151D6477B" name="Insurance_PK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:26 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="0632A973-0AB5-22DE-6DB4-8ED7E10C89BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3A43B20-F55B-7D02-97C6-ED0C628C13EC" name="Insurance_Car_FK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>F68FE528-8128-45B6-2703-F7191B8D751A</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F2C9FE5-5000-D423-4B63-9432E24FCEB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

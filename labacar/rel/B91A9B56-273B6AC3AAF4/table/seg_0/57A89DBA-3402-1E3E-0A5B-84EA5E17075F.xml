@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57A89DBA-3402-1E3E-0A5B-84EA5E17075F" name="Parking_permit">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>EE031A8B-CD14-D902-E70A-357D129FDCCD</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="parking" id="A99DEBB7-95AD-35D5-030C-D2BE8E5BFC01">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>C08FB49F-D7BB-F0B3-F0ED-EE776702153C</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parking_permit_ID" id="400047BD-4D26-F1E7-B7F0-F322FB581C8C">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Car_Car_ID" id="CA919A6A-DB55-53A6-E2DE-D39D66FCA168">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14B4189E-23CE-6667-CE63-D0CCEAF5EEAC" referredColumn="CCDBD2CB-2AC7-A17C-8F24-72DA5B794733"/>
+</associations>
+</Column>
+<Column name="Location_Location_ID" id="914AE520-2274-602F-7A87-47F913AC9349">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FF9D201-2708-62E1-908A-85B6D85068E7" referredColumn="FA27203F-BF3E-8962-2EE4-9AAE93DB8ACC"/>
+</associations>
+</Column>
+<Column name="Region_Region_ID" id="86F9659C-6F47-DEBE-1C2B-61131CBCF6C2">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0E7A642-BE10-FB42-053D-D855FACC1B6E" referredColumn="1B8F3C27-DCD7-03D5-0A64-01E664FFC41A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6381A327-F0AE-3112-52AB-97362984D422" name="Parking_permit_PK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<ownerDesignName>labacar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="400047BD-4D26-F1E7-B7F0-F322FB581C8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C88E81C-FB99-021D-8BB2-F01E462F8EAA" name="Parking_permit_Car_FK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>03E49649-3482-0C8B-EB47-A55BA1F9F2C5</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA919A6A-DB55-53A6-E2DE-D39D66FCA168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15B640A8-0321-FC1E-7D41-05CA90401695" name="Parking_permit_Location_FK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>3624C855-CED8-BEA1-710D-A0C4BF6AC9E8</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="914AE520-2274-602F-7A87-47F913AC9349"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01C0A4F9-B4BA-EAA6-2789-09772EF312F5" name="Parking_permit_Region_FK">
+<createdBy>ADMIN</createdBy>
+<createdTime>2024-04-08 18:47:27 UTC</createdTime>
+<generatorID>8AED9905-B40B-8489-5F29-3B57527EE6CA</generatorID>
+<ownerDesignName>labacar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F9659C-6F47-DEBE-1C2B-61131CBCF6C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
